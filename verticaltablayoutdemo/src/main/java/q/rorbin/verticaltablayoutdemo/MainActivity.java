@@ -1,9 +1,6 @@
 package q.rorbin.verticaltablayoutdemo;
 
 import android.graphics.Color;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -11,15 +8,17 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 import q.rorbin.badgeview.Badge;
-import q.rorbin.badgeview.DisplayUtil;
 import q.rorbin.verticaltablayout.adapter.TabAdapter;
 import q.rorbin.verticaltablayout.VerticalTabLayout;
-import q.rorbin.verticaltablayout.widget.ITabView;
 import q.rorbin.verticaltablayout.widget.TabView;
 
 public class MainActivity extends AppCompatActivity {
